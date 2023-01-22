@@ -12,19 +12,17 @@
 
 ### Результаты тестов по градации серьезности:
 
-![image](https://user-images.githubusercontent.com/104353048/210388470-e7d03d33-f3cf-4319-beb1-1ae9696b4602.png)
+![image](![chrome_SWFl6OIqqR](https://user-images.githubusercontent.com/104645992/213927101-842b4daa-912f-4ddb-858b-03d540085c1b.png)
 
 ### Детализация
 
-![image](https://user-images.githubusercontent.com/104353048/210389160-948b5184-b739-4310-b378-daa16f35383c.png)
+![image](![chrome_VnmJZR6biI](https://user-images.githubusercontent.com/104645992/213927132-4c2b7618-6918-4cab-a20d-c06d692ef491.png)
 
-Тест на успешную покупку тура с валидными данными карты то падает, то проходит успешно, но чаще падает. 
-Возможно, это связано с некоторой задержкой, с которой появляется сообщение об успешной покупке, но вычислить нужную длительность таймаута и добиться стабильности прохождения теста  так и не удалось.
-![image](https://user-images.githubusercontent.com/104353048/210389709-3e5bb262-e419-47b0-9689-8096d7b589e6.png)
+![image](![chrome_pO0FqpfhZJ](https://user-images.githubusercontent.com/104645992/213927156-e99d2e6a-e019-450b-9b70-21c12531c27e.png)
 
 ### Итоги
 
-В результате прогона тестов было составлено 6 [issue](https://github.com/Boolgakova/TripService/issues).
+В результате прогона тестов было составлено 10 [issue](https://github.com/Ksenya31/aqa-cursovik/issues).
 
 ### Общие рекомендации
 
