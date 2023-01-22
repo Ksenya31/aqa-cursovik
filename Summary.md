@@ -1,7 +1,7 @@
 # Отчет по итогам автоматизации
 
 ## Что было запланировано и что было сделано
-* Составлен [план](https://github.com/Boolgakova/TripService/blob/master/Plan.md) автоматизации тестирования функционала покупки тура веб-сервиса "Путешествие дня", включающий в себя 9 тест-кейсов и перечень необходимых библиотек и ресурсов для работы.
+* Составлен [план](https://github.com/Ksenya31/aqa-cursovik/blob/main/Plan.md) автоматизации тестирования функционала покупки тура веб-сервиса "Путешествие дня", включающий в себя 17 тест-кейсов и перечень необходимых библиотек и ресурсов для работы.
 * Проведено ручное исследование приложения, симулятора банковских сервисов и базы данных.
 * Написан тестовый фреймворк, включающий в себя [data-классы](https://github.com/Boolgakova/TripService/tree/master/src/test/java/ru/netology/data), генерирующие данные для тестов и осуществляющие подключение к базе данных, [page objects](https://github.com/Boolgakova/TripService/tree/master/src/test/java/ru/netology/page) для оптимизации работы с приложением, и сами [тесты](https://github.com/Boolgakova/TripService/tree/master/src/test/java/ru/netology/test).
 * По итогам прогона тестов подготовлен [отчет](https://github.com/Boolgakova/TripService/blob/master/Report.md) и заведены 6 [issues](https://github.com/Boolgakova/TripService/issues)
