@@ -6,7 +6,7 @@
 
 1. [План автоматизации](https://github.com/Ksenya31/aqa-cursovik/blob/main/Plan.md)
 
-1. [Отчёт по итогам тестирования]()
+1. [Отчёт по итогам тестирования](https://github.com/Ksenya31/aqa-cursovik/blob/main/Report.md)
 
 1. [Отчёт по итогам автоматизации]()
 
