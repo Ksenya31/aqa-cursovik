@@ -8,7 +8,7 @@
 
 1. [Отчёт по итогам тестирования](https://github.com/Ksenya31/aqa-cursovik/blob/main/Report.md)
 
-1. [Отчёт по итогам автоматизации]()
+1. [Отчёт по итогам автоматизации](https://github.com/Ksenya31/aqa-cursovik/blob/main/Summary.md)
 
 ## Инструкция по запуску и сворачиванию приложения
 
