@@ -13,13 +13,13 @@
 ## Инструкция по запуску и сворачиванию приложения
 
 ### Запуск SUT
-* Cкопировать ссылку на проект: клонировать с помощью Git-> git clone https://github.com/Ksenya31/aqa-cursovik.git  или открыть IntelliJ IDEA ->Empty Project  https://github.com/Ksenya31/aqa-cursovik.git
-* Запустить Docker Desktop
+* Cкопировать ссылку на проект: клонировать с помощью Git-> git clone https://github.com/Ksenya31/aqa-cursovik.git  или открыть IntelliJ IDEA ->Empty Project и вставить ссылу  https://github.com/Ksenya31/aqa-cursovik.git
 * Открыть проект в IntelliJ IDEA
+* Запустить Docker Desktop
 * В первом терминале запустить контейнер docker-compose up
 * Запустить приложение командой java -jar artifacts/aqa-shop.jar
 * Проверить, что приложение успешно запустилось (ввести URL в браузере Сhrome: http://localhost/8080)
-* 
+* Запустить тесты в терминале 3: .\gradlew clean test
 
 ### Создание отчета
 * Создать отчеты и открыть их в браузере командой ./gradlew allureServe
