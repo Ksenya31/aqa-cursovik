@@ -13,7 +13,7 @@
 ## Инструкция по запуску и сворачиванию приложения
 
 ### Запуск SUT
-* Cкопировать ссылку на проект: клонировать с помощью Git-> git clone ...  или открыть IntelliJ IDEA ->Empty Project  ...
+* Cкопировать ссылку на проект: клонировать с помощью Git-> git clone https://github.com/Ksenya31/aqa-cursovik.git  или открыть IntelliJ IDEA ->Empty Project  https://github.com/Ksenya31/aqa-cursovik.git
 * Запустить Docker Desktop
 * Открыть проект в IntelliJ IDEA
 * В первом терминале запустить контейнер docker-compose up
