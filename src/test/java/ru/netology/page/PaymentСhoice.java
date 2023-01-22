@@ -7,13 +7,8 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class PaymentСhoice {
 
-    public void cardPayment(){
+    public void cardPayment() {
         $(byText("Купить")).click();
         $(withText("Оплата по карте")).shouldBe(visible);
     }
-
-    /*public void paymentOnCredit(){
-        $(byText("Купить в кредит")).click();
-        $(withText("Кредит по данным карты")).shouldBe(visible);
-    }*/
 }

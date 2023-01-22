@@ -90,6 +90,7 @@ public class DataHelper {
             return new CardDetails("1111 2222 3333 4444", getCurrentMonth(), getCurrentYear(),
                     "r", generateCvc());
         }
+
         public static CardDetails getApprovedCardInvalidOwnerSpcSymbolNmb() {
             return new CardDetails("1111 2222 3333 4444", getCurrentMonth(), getCurrentYear(),
                     "%$^*1123.//.)@#", generateCvc());

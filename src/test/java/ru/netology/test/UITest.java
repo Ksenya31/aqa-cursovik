@@ -114,12 +114,14 @@ public class UITest {
         inputCardDetails.fillingInFields(DataHelper.CardDetails.getApprovedCardInvalidOwnerRu());
         inputCardDetails.errorMessageInvalidOwner();
     }
+
     @Test
     void shouldInputInvalidOwnerEn() {
         var inputCardDetails = new InputCardDetails();
         inputCardDetails.fillingInFields(DataHelper.CardDetails.getApprovedCardInvalidOwnerEn());
         inputCardDetails.errorMessageInvalidOwner();
     }
+
     @Test
     void shouldInputInvalidOwnerSpcSymbolNmb() {
         var inputCardDetails = new InputCardDetails();
