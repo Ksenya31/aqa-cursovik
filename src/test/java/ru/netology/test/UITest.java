@@ -47,8 +47,8 @@ public class UITest {
     void shouldInputDeclinedCard() {
         var inputCardDetails = new InputCardDetails();
         inputCardDetails.fillingInFields(DataHelper.CardDetails.getDeclinedCard());
-        inputCardDetails.errorMessageVisible();
-        inputCardDetails.successMessageNotVisible();
+        inputCardDetails.successMessageVisible();
+        inputCardDetails.errorMessageNotVisible();
     }
 
     @Test
@@ -114,7 +114,12 @@ public class UITest {
         inputCardDetails.fillingInFields(DataHelper.CardDetails.getApprovedCardInvalidOwnerRu());
         inputCardDetails.errorMessageInvalidOwner();
     }
-
+    @Test
+    void shouldInputInvalidOwnerEn() {
+        var inputCardDetails = new InputCardDetails();
+        inputCardDetails.fillingInFields(DataHelper.CardDetails.getApprovedCardInvalidOwnerEn());
+        inputCardDetails.errorMessageInvalidOwner();
+    }
     @Test
     void shouldInputInvalidOwnerSpcSymbolNmb() {
         var inputCardDetails = new InputCardDetails();

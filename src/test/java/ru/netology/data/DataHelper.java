@@ -3,6 +3,7 @@ package ru.netology.data;
 import com.github.javafaker.Faker;
 import lombok.Value;
 import org.apache.commons.lang3.RandomStringUtils;
+
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
@@ -32,7 +33,7 @@ public class DataHelper {
 
         // Данные для поля Номер карты
         public static CardDetails getAnotherCard() {
-            return new CardDetails("1234 5678 9876 5432", getCurrentMonth(), getCurrentYear(),
+            return new CardDetails("9999 5555 4433 9874", getCurrentMonth(), getCurrentYear(),
                     generateOwner("en"), generateCvc());
         }
 
@@ -48,7 +49,7 @@ public class DataHelper {
 
         // Данные для поля Месяц
         public static CardDetails getApprovedCardInvalidMonth00() {
-            return new CardDetails("1111 2222 3333 4444", "00", getCurrentYear(),
+            return new CardDetails("1111 2222 3333 4444", "00", "24",
                     generateOwner("en"), generateCvc());
         }
 
@@ -63,7 +64,7 @@ public class DataHelper {
         }
 
         public static CardDetails getApprovedCardInvalidMonth1Symbol() {
-            return new CardDetails("1111 2222 3333 4444", "3", getCurrentYear(),
+            return new CardDetails("1111 2222 3333 4444", "9", getCurrentYear(),
                     generateOwner("en"), generateCvc());
         }
 
@@ -85,9 +86,13 @@ public class DataHelper {
                     generateOwner("ru"), generateCvc());
         }
 
+        public static CardDetails getApprovedCardInvalidOwnerEn() {
+            return new CardDetails("1111 2222 3333 4444", getCurrentMonth(), getCurrentYear(),
+                    "r", generateCvc());
+        }
         public static CardDetails getApprovedCardInvalidOwnerSpcSymbolNmb() {
             return new CardDetails("1111 2222 3333 4444", getCurrentMonth(), getCurrentYear(),
-                    "12215656 %$^*)@#", generateCvc());
+                    "%$^*1123.//.)@#", generateCvc());
         }
 
         public static CardDetails getApprovedCardInvalidOwnerSpcEmpty() {
@@ -103,7 +108,7 @@ public class DataHelper {
 
         public static CardDetails getApprovedCardInvalidCVCSpcSymbolLetter() {
             return new CardDetails("1111 2222 3333 4444", getCurrentMonth(), getCurrentYear(),
-                    generateOwner("en"), "%jю");
+                    generateOwner("en"), "000");
         }
 
         public static CardDetails getApprovedCardInvalidCVCEmpty() {
